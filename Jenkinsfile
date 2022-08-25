@@ -1,9 +1,20 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('java') {
             steps {
-                sh 'python --version'
+                sh 'java --version'
+            }
+        }
+        
+        stage('folders') {
+            steps {
+                sh 'ls /'
+            }
+        }
+        stage('home') {
+            steps {
+                sh 'ls /home'
             }
         }
     }
