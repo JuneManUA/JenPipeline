@@ -1,2 +1,2 @@
-# JenPypeline
-Here will be test of pypeLines for book
+# JenPipeline
+Here will be test of pipeLines for book
