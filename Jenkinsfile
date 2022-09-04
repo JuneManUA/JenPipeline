@@ -7,7 +7,7 @@ pipeline {
             }
         }
         
-        stage('folders') {
+        stage('show folders') {
             steps {
                 sh 'ls /'
             }
