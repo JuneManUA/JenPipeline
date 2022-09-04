@@ -16,6 +16,10 @@ pipeline {
             steps {
                 sh 'ls /home'
             }
+        stage('pwd') {
+            steps {
+                sh 'pwd'
+            }
         }
     }
 }
